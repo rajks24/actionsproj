@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: rajks24/actionsproj
+        uses: rajks24/actionsproj@main
         with:
           who-to-greet: 'Rajesh Singh'
       # Use the output from the `hello` step
